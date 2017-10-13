@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caspar.projectcn.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        app:srcCompat="@drawable/monitor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="178dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="250dp"
+        android:background="#000"
+        android:id="@+id/view3" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="250dp"
+        android:background="#000"
+        android:id="@+id/view" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="180dp"
+        android:background="#000"
+        android:id="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="172dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        app:srcCompat="@drawable/monitor" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignEnd="@+id/view2"
+        android:layout_alignRight="@+id/view2"
+        android:layout_marginBottom="19dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignEnd="@+id/view2"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignTop="@+id/view2"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/envelope" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope"
+        android:layout_alignTop="@+id/view3"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope"
+        android:layout_below="@+id/view3"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/envelope"
+        android:layout_below="@+id/view3"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2" />
+</RelativeLayout>
